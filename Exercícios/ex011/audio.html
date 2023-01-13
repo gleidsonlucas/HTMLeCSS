@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudio</title>
+</head>
+<body>
+    <h1>Áudio em html</h1>
+    <p>Para usarmos áudio, precimos abrir a tag &lt;audio&gt;. <br>
+    Indico usar o preload= "none". Assim, o áudio só carregara se
+    o usuário apertar play. Use também o parâmetro controls.</p>
+    <h2>Acessibilidade</h2>
+    <p>Dentro da tag &lt;audio&gt; podemos adcionar vários &lt;source&gt;
+        caso o <mark>.mp3</mark> não funione.
+    </p>
+    <audio preload="metadata" controls loop>
+        <source src="audio/It Was a Time - TrackTribe.mp3" type="audio/mpeg">
+    </audio>
+    <h3>Parâmetro LOOP</h3>
+    <p>Casoo você use o parâmetro "loop", assim que o audio acabar,
+        já começará sem o usuário dar play!
+    </p>
+</body>
+</html>

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "salon";
+    src: url(Lost\ Saloon.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto+Slab:wght@500&display=swap');
+@font-face {
+    font-family: "van";
+    src: url(vanilla\ whale.otf);
+}
+@font-face {
+    font-family: "frans";
+    src: url(FranchiseFilled.ttf);
+}
+
+
+
+
+body{
+    background-color: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+   background-color: #D92525;
+   text-align: center;
+   font-family: "frans";
+   font-size: 5em;
+
+}
+h1#principal{
+    text-align: left;
+    background-color: #853d43;
+    font-family: "salon";
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    font-size: 3em;
+}
+h2{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: red;
+    font-size: 2em;
+}
+.nivel_um{
+    color:rgba(180, 180, 70, 0.979)
+}
+.nivel_dois{
+    color: darkblue;
+    font-family: "van",serif;
+}
+h1#css{
+    text-align: left;
+    background-color: #853d43;
+    font-family: "salon";
+    font-weight: 100;
+    font-style: oblique;
+    color: white;
+    font-size: 3em;
+}
