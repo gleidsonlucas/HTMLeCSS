@@ -1,5 +1,4 @@
 # HTMLeCSS
-# gleidsonlucas.github.io
- Curso de HTML5 & CSS3; Curso em Video
+ Curso de HTML5 & CSS3 do Curso em Video
 
-Atualização do git hub desktop para o githhub site
+]
