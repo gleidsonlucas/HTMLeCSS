@@ -32,7 +32,7 @@ main #e1{
     line-height: 14pt;
     padding-bottom: 70px;
 }
-section.container{
+section.container#c1{
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -55,9 +55,71 @@ section.container#c1 > p{
     line-height: 30pt;
 }
 
+main section#e2{
+    padding-top: 70px;
+    font-family: 'Sriracha', cursive;
+    padding-left: 35px;
+    line-height: 25pt;
+    padding-bottom: 70px;
+    
+}
+main section#e3{
+    padding-top: 15px;
+    font-family: 'Sriracha', cursive;
+    padding-left: 35px;
+    line-height: 25pt;
+    padding-bottom: 70px;
+}
+section.container#c2{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 400px;
+    display: flex;
+    justify-content: left;
+}
+section.container#c2 > p{
+    background-color: rgba(0, 0, 0, 0.377);
+    width: 260px;
+    height: 250px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 40px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 25px;
+    line-height: 30pt;
+}
+#p3{
+    padding-top: 70px;
+    font-family: 'Sriracha', cursive;
+    padding-left: 35px;
+    line-height: 25pt;
 
+}
+#p4{
+    padding-top: 70px;
+    font-family: 'Sriracha', cursive;
+    padding-left: 35px;
+    line-height: 25pt;
+    padding-bottom: 15px;
+}
 footer{ 
     background-color: black;
     color: white;
-    margin-top: 1000px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer  a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer a:visited{
+    color: rgb(179, 179, 179);
 }
