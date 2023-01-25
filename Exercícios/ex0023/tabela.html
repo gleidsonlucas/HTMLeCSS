@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            background-color: rgb(233, 224, 240);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+            padding-bottom: 25px;
+        }
+        table{
+            width: 500px;
+            height: 500px;
+            padding: 5px;
+            border-collapse: collapse;
+            border: 2px solid darkred;
+            margin: auto;
+        }
+        td{
+            border: 1px solid rgb(236, 2, 2);
+            padding: 10px;
+            text-align: center;
+        }
+        .numero{
+            vertical-align: top;
+            text-align: right;
+        }
+        .nome{
+            background-color: rgb(99, 255, 255);
+            vertical-align: bottom;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira Tabela</h1>
+    <table>
+        <tr> <!--Linhas de tabelas-->
+            <td>A1</td> <!--Dadaos de Tabelas-->
+            <td class="nome">Lucas</td>
+            <td>A3</td>
+            <td>A4</td>
+        </tr>
+        <tr>
+            <td>B1</td>
+            <td class="numero">85</td>
+            <td>B3</td>
+            <td>B4</td>
+        </tr>
+        <tr>
+            <td class="nome">Gleidson</td>
+            <td>C2</td>
+            <td class="numero">74</td>
+        </tr>
+    </table>
+</body>
+</html>
