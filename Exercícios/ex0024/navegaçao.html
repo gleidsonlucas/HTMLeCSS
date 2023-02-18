@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação Iframe</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        iframe#tela{
+            width: 98vw; /*Não confunda Vh com Vw*/
+            height: 200px;
+            border: 2px solid black;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            text-indent: 35px;
+        }
+        a{
+            color: black;
+            font-weight: bolder;
+        }
+        a#g:hover{
+            color: gray;
+        }
+        a#a:hover{
+            color: blue;
+        }
+        a#v:hover{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iframe</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quaerat natus quisquam nisi inventore officiis provident. Voluptate minima quidem placeat atque nihil, ipsam sapiente, quod ipsum et, eligendi perspiciatis enim.
+    Vel autem explicabo possimus rem a nemo, molestiae neque? Rem, voluptas saepe! Quasi esse, repellat voluptatum eius tempore sequi velit eaque ab rem accusantium nam vitae quo sint asperiores! Totam!</p>
+    <h2>Escolha um site para ver o conteúdo</h2>
+    <ul type="square">
+        <li><a href="navegação/pag01.html" target="sites" id="g">Tabela</a></li>
+        <li><a href="navegação/pag02.html" target="sites" id="a">Site Azul</a></li>
+        <li><a href="navegação/pag03.html" target="sites" id="v">Site Vermelho</a></li>
+    </ul>
+    <iframe id="tela" srcdoc="<h1>Você ainda não escolheu seu site!</h1>" name="sites"></iframe>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt unde accusamus incidunt quos facilis animi aperiam nam veniam deleniti modi rerum, a voluptates debitis eaque eveniet, dolorum odio quod consectetur.
+    Recusandae aperiam impedit quis vitae fugit! Atque iure architecto, corporis laboriosam voluptas alias illo aut dicta aperiam quasi ex maiores labore ullam, autem qui numquam consequuntur tempora! Quibusdam, quis voluptatum?</p>
+</body>
+</html>
+<!--Parâmetro srcdoc ao invés do src. Ele suporta HTML!!!!-->

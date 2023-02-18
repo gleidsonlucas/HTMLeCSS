@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox e Radio button</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: 3em;
+        }
+        fieldset{
+            color: red;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2.0em;
+        }
+        input{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Checkbox</h1>
+    <form action="form.php" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="Imas"><input type="radio" name="sexo" id="Imas" value="M">Masculino</label> <br>
+            <label for="Ifem"><input type="radio" name="sexo" id="Ifem" value="F">Feminino</label>
+            <!--Para este caso, use o mesmo -name-, para que quando marcar um, desmarcar o outro automaticamente-->
+        </fieldset>
+        <fieldset>
+            <legend>Esporte Favorito</legend>
+            <label for="Ixadrez"><input type="checkbox" name="xadrez" id="Ixadrez" checked>Xadrez</label> <br/> <!--Check: Já deixa marcado-->
+
+            <label for="Ifut"><input type="checkbox" name="fut" id="Ifut">Futebol</label> <br/>
+
+            <label for="Itenis"><input type="checkbox" name="tenis" id="Itenis">Tênis</label> <br/>
+
+            <label for="Ibasquete"><input type="checkbox" name="bask" id="Ibasquete">Basquete</label> <br/>
+
+            <label for="Iboxe"><input type="checkbox" name="boxe" id="Iboxe">Boxe</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
+<!--CheckBox ou Radio: CheckBox marcar mais de uma. Radiio ou uma opção ou outra.-->
+<!--Lá no Radio, o Value tem outra função, ele envia aquilo pro php. Nos outos imputs, o Value já deixa algo escrito. Como se fosse um "checked"-->
